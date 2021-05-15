@@ -29,7 +29,7 @@ SECRET_KEY = '5kh^*%9u6c_l-ob6i*9uv#w#1*r@)qurs+$d855(mc#l(=*%er'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['DannyUni.pythonanywhere.com']
 
 
 # Application definition
