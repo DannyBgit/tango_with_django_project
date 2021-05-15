@@ -111,7 +111,7 @@ def add_page(request, category_name_slug):
             else:
                 print(form.errors)  # This could be better done; for the purposes of TwD, this is fine. DM.
 
-                context_dict = {'form': form, 'category': category}
+        context_dict = {'form': form, 'category': category}
         return render(request, 'rango/add_page.html', context=context_dict)
 
 def register(request):
